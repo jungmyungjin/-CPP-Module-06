@@ -6,14 +6,14 @@
 #    By: mjung <mjung@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2021/12/22 02:21:42 by mjung             #+#    #+#              #
-#    Updated: 2021/12/22 02:21:51 by mjung            ###   ########.fr        #
+#    Updated: 2021/12/22 18:00:12 by mjung            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 SRCS = ./scalarConversion.cpp \
 	./main.cpp
 
-CC = clang++
+CC = c++
 NAME = scalarConversion
 
 CFLANG = -Wall -Wextra -Werror -std=c++98
